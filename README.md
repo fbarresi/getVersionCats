@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+| Information: Page still under construction |
+| --- |
 
-You can use the [editor on GitHub](https://github.com/fbarresi/getVersionCats/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Use cases
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Backup the persistent variables from your PLC in a structured format
+- Backup any file or project on your machine
 
-### Markdown
+## Main features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Backups in regular intervals
+	- Backup TwinCAT global persistent variables
+	- Backup any file or folders
+- Save your backup in the cloud (AWS S3 or Azure DocumentStore)
+- Trigger a manual backup with a special tag
+- Restore PLC-data or files manually or over the web interface
 
-```markdown
-Syntax highlighted code block
+## How it works
 
-# Header 1
-## Header 2
-### Header 3
+- Install the VersionCats service
+- Setup your Backup sources and intervals
+- Setup a cloud backup (for example in AWS S3 or Azure DocumentStore)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Related Projects
 
-**Bold** and _Italic_ and `Code` text
+Checkout my other Twincat projects and add more power to your twincat development
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fbarresi/getVersionCats/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [BeckhoffHttpClient](https://github.com/fbarresi/BeckhoffHttpClient) REST Client for Beckhoff PLCs.
+- [BeckhoffS7Client](https://github.com/fbarresi/BeckhoffS7Client) S7 PLC communication library.
+- [TwinCatAdsTool](https://github.com/fbarresi/TwinCatAdsTool) Management tool for every TwinCat PLC
+- [SoftBeckhoff](https://github.com/fbarresi/SoftBeckhoff) Testing tool for TwinCat ADS applications
+- [TwinCAT.JsonExtension](https://github.com/fbarresi/TwinCAT.JsonExtension) Add the power of Json to your PLC
+- [BeckhoffJsonReadWriter](https://github.com/fbarresi/BeckhoffJsonReadWriter) Read and write Json directly from your PLC
