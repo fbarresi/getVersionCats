@@ -10026,8 +10026,7 @@ h3 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../assets/img/header-bg.jpg") 0 0 repeat;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -10081,8 +10080,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../assets/img/header-bg.jpg") 0 0 repeat;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
